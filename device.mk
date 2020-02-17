@@ -76,6 +76,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     SystemUIGoogle
 
+# Doze
+PRODUCT_PACKAGES += \
+    CustomDoze
+
 # Bug 62375603
 PRODUCT_PROPERTY_OVERRIDES += audio.adm.buffering.ms=3
 PRODUCT_PROPERTY_OVERRIDES += vendor.audio.adm.buffering.ms=3
