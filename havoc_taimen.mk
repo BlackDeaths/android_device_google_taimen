@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Havoc
-export export HAVOC_BUILD_TYPE=Unofficial
+HAVOC_BUILD_TYPE= Unofficial
 
 TARGET_SCREEN_HEIGHT := 2880
 TARGET_SCREEN_WIDTH := 1440
